@@ -22,3 +22,25 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets
+dataset/
+datasets/
+
+# Large ML model files
+*.h5
+*.pth
+*.pt
+*.pkl
