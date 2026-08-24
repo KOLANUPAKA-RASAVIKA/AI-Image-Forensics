@@ -1,0 +1,128 @@
+# =========================================================
+# Python
+# =========================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+venv/
+.venv/
+env/
+
+# =========================================================
+# Node / React
+# =========================================================
+
+node_modules/
+dist/
+build/
+.vite/
+
+# =========================================================
+# Environment / Secrets
+# =========================================================
+
+.env
+.env.*
+!.env.example
+
+# =========================================================
+# Uploaded Evidence
+# =========================================================
+
+ai-service/uploads/*
+ai-service/outputs/*
+ai-service/temp/*
+ai-service/tmp/*
+
+# =========================================================
+# Generated Forensic Files
+# =========================================================
+
+ai-service/outputs/ela/*
+ai-service/outputs/gradcam/*
+ai-service/data/*.json
+
+# =========================================================
+# Training Generated Files
+# =========================================================
+
+training/models/*
+training/checkpoints/*
+training/logs/*
+training/outputs/*
+training/temp/*
+
+# =========================================================
+# ML Model Files
+# =========================================================
+
+*.h5
+*.keras
+*.ckpt
+*.weights.h5
+*.pb
+
+# =========================================================
+# Python Cache / Logs
+# =========================================================
+
+*.log
+
+# =========================================================
+# OS
+# =========================================================
+
+Thumbs.db
+.DS_Store
+
+# =========================================================
+# IDE
+# =========================================================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+
+# =========================================================
+# Jupyter
+# =========================================================
+
+.ipynb_checkpoints/
+
+# =========================================================
+# Misc
+# =========================================================
+
+*.tmp
+*.temp
+# =========================================================
+# Training Dataset
+# =========================================================
+
+training/dataset/
+
+# Extra local authentic images
+training/extra_authentic/
+
+# Generated ELA / Grad-CAM outputs
+training/ela_results/
+training/forensic_results/
+training/gradcam_results/
+
+
+# Generated training history / logs
+training/history/
+
+# Windows generated metadata
+desktop.ini
+training/**/desktop.ini
+# Backend uploads
+backend/uploads/
+
+# Backend generated files
+backend/outputs/
+backend/temp/
